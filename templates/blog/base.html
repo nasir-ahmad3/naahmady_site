@@ -1,0 +1,32 @@
+{% load static %}
+{% load base_tags %}
+<html>
+<head>
+    <meta name="google-site-verification" content="t9ut_qfewn3gCQDcVbjWZDZRFvWLjNn95TRQ9cEY-jk" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" description='Nasir Ahmad Ahmady'>
+    <meta name="keywords" description="nasir_site_in_afg_kabul">
+    <meta name="keywords" content="nasir ahmad ahmady | نصیر احمد احمدی">
+    <link rel="icon" href="{% static 'blog/assets/svg/favicon.ico' %}">
+    <link rel="stylesheet" href="{% static 'blog/fontawesome/css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'blog/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'blog/css/style.css' %}">
+    <!-- stat rating -->
+    <link rel="stylesheet" href="{% static 'star-ratings/css/star-ratings.css' %}">
+    <script type="text/javascript" src="{% static 'star-ratings/js/dist/star-ratings.min.js' %}"></script>
+    <title>احمدی سایت</title>
+</head>
+<body>
+    {% block main_header %}{% endblock %}
+    {% block main %}{% endblock %}
+    <footer>
+        <hr>
+        <div class="icon-wrapper my-3">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-telegram"></i>
+        </div>
+    </footer>
+    <script src="{% static 'blog/js/main.js' %}"></script>
+</body>
+</html>
